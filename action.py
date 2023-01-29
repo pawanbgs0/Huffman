@@ -22,7 +22,7 @@ def home():
         
     return render_template("home.html")
 
-app.config["FILE_UPLOADS"] = "/home/pawan/Desktop/Code/Huffman/uploads"
+app.config["FILE_UPLOADS"] = "/uploads"
 
 
 @app.route("/encrypt", methods=["GET", "POST"])
